@@ -1,0 +1,6 @@
+{
+  "name": "Paper & Pulse",
+  "description": "The official college magazine and publication platform by the Department of English.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

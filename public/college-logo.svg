@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 115" width="100%" height="100%" aria-label="Easwari Engineering College">
+  <defs>
+    <!-- Arc paths for text along circle -->
+    <!-- Center of seal is at (55, 52), radius 44 -->
+    <path id="seal-arc-top" d="M 14 52 A 41 41 0 0 1 96 52" fill="none" />
+    <path id="seal-arc-bot" d="M 96 52 A 41 41 0 0 1 14 52" fill="none" />
+  </defs>
+
+  <!-- ==================== LEFT CIRCULAR SEAL ==================== -->
+  <g id="college-seal">
+    <!-- Outer thin border -->
+    <circle cx="55" cy="52" r="49" fill="none" stroke="#FFFFFF" stroke-width="1.2" opacity="0.9" />
+
+    <!-- Maroon Ring -->
+    <circle cx="55" cy="52" r="47.5" fill="#4E0812" />
+
+    <!-- Inner circle border -->
+    <circle cx="55" cy="52" r="33.5" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1" />
+
+    <!-- Arc Text: EASWARI ENGINEERING COLLEGE -->
+    <text font-family="'Work Sans', system-ui, -apple-system, sans-serif" font-size="6.2" font-weight="700" fill="#FFFFFF" letter-spacing="0.7">
+      <textPath href="#seal-arc-top" startOffset="50%" text-anchor="middle">
+        EASWARI ENGINEERING COLLEGE
+      </textPath>
+    </text>
+
+    <!-- Arc Text: EDUCATE AND EXCEL -->
+    <text font-family="'Work Sans', system-ui, -apple-system, sans-serif" font-size="5.8" font-weight="700" fill="#FFFFFF" letter-spacing="1">
+      <textPath href="#seal-arc-bot" startOffset="50%" text-anchor="middle">
+        EDUCATE AND EXCEL
+      </textPath>
+    </text>
+
+    <!-- Side star dots on seal ring -->
+    <circle cx="16" cy="52" r="1.2" fill="#FFFFFF" />
+    <circle cx="94" cy="52" r="1.2" fill="#FFFFFF" />
+
+    <!-- Inner SRM Crest (Centered at 55, 52, scaled to fit inner white circle r=33) -->
+    <g transform="translate(55, 53) scale(0.245) translate(-100, -128)">
+      <!-- Outer Red Contour -->
+      <path
+        d="M 28 65 L 28 175 C 28 206 58 231 100 238 C 142 231 172 206 172 175 L 172 65 Z"
+        fill="#D32F2F"
+      />
+      <!-- Main Green Shield Body -->
+      <path
+        d="M 32 68 L 32 173 C 32 202 60 225 100 232 C 140 225 168 202 168 173 L 168 68 Z"
+        fill="#046A38"
+      />
+      <!-- Top Crown / Dome Area in green with yellow rim -->
+      <path
+        d="M 72 74 C 72 45 128 45 128 74 Z"
+        fill="#046A38"
+        stroke="#FDB913"
+        stroke-width="5"
+      />
+      <path
+        d="M 80 74 C 80 54 120 54 120 74 Z"
+        fill="#024D28"
+      />
+      <!-- Golden Dome Finial & Apex Lotus -->
+      <circle cx="100" cy="48" r="5" fill="#FDB913" />
+      <path d="M 98 44 L 102 44 L 100 37 Z" fill="#FDB913" />
+      <path d="M 100 24 C 95 31 96 38 100 42 C 104 38 105 31 100 24 Z" fill="#FFFFFF" stroke="#046A38" stroke-width="0.75" />
+      <path d="M 99 35 C 91 30 87 37 93 42 C 96 40 98 37 99 35 Z" fill="#FFFFFF" stroke="#046A38" stroke-width="0.75" />
+      <path d="M 101 35 C 109 30 113 37 107 42 C 104 40 102 37 101 35 Z" fill="#FFFFFF" stroke="#046A38" stroke-width="0.75" />
+      <circle cx="100" cy="40" r="2.5" fill="#FDB913" />
+
+      <!-- Left Swan -->
+      <path
+        d="M 52 72 C 50 63 56 55 64 56 C 68 56 71 61 74 67 C 72 70 68 73 63 73 Z"
+        fill="#FFFFFF"
+        stroke="#1B1C1D"
+        stroke-width="1.2"
+      />
+      <path
+        d="M 54 66 C 50 60 52 48 60 45 C 65 43 68 46 66 50 C 64 54 60 58 64 64"
+        fill="none"
+        stroke="#FFFFFF"
+        stroke-width="4.5"
+        stroke-linecap="round"
+      />
+      <ellipse cx="64.5" cy="47" rx="3.5" ry="2.8" fill="#FFFFFF" stroke="#1B1C1D" stroke-width="0.8" />
+      <polygon points="68,47 73,48 68,49.5" fill="#E65100" stroke="#1B1C1D" stroke-width="0.6" />
+      <circle cx="64" cy="46.2" r="0.75" fill="#1B1C1D" />
+
+      <!-- Right Swan -->
+      <g transform="translate(200, 0) scale(-1, 1)">
+        <path
+          d="M 52 72 C 50 63 56 55 64 56 C 68 56 71 61 74 67 C 72 70 68 73 63 73 Z"
+          fill="#FFFFFF"
+          stroke="#1B1C1D"
+          stroke-width="1.2"
+        />
+        <path
+          d="M 54 66 C 50 60 52 48 60 45 C 65 43 68 46 66 50 C 64 54 60 58 64 64"
+          fill="none"
+          stroke="#FFFFFF"
+          stroke-width="4.5"
+          stroke-linecap="round"
+        />
+        <ellipse cx="64.5" cy="47" rx="3.5" ry="2.8" fill="#FFFFFF" stroke="#1B1C1D" stroke-width="0.8" />
+        <polygon points="68,47 73,48 68,49.5" fill="#E65100" stroke="#1B1C1D" stroke-width="0.6" />
+        <circle cx="64" cy="46.2" r="0.75" fill="#1B1C1D" />
+      </g>
+
+      <!-- Center Frame Base -->
+      <rect x="42" y="74" width="116" height="88" fill="#024D28" />
+
+      <!-- Stepped Knowledge Blocks -->
+      <g fill="#FFFFFF" stroke="#1B1C1D" stroke-width="1.5">
+        <rect x="52" y="132" width="22" height="24" />
+        <rect x="74" y="126" width="24" height="30" />
+        <rect x="98" y="112" width="26" height="44" />
+        <rect x="124" y="94" width="22" height="62" />
+        <path d="M 124 94 L 146 94" stroke="#1B1C1D" stroke-width="2" />
+      </g>
+
+      <g stroke="#1B1C1D" stroke-width="1.2" fill="none">
+        <line x1="52" y1="144" x2="74" y2="144" />
+        <line x1="74" y1="138" x2="98" y2="138" />
+        <line x1="98" y1="128" x2="124" y2="128" />
+        <line x1="124" y1="110" x2="146" y2="110" />
+        <line x1="124" y1="128" x2="146" y2="128" />
+        <line x1="132" y1="84" x2="146" y2="84" stroke-width="1.5" />
+        <line x1="132" y1="84" x2="132" y2="94" stroke-width="1.5" />
+      </g>
+
+      <!-- Auspicious Red Swastika -->
+      <g transform="translate(68, 98)">
+        <path
+          d="M -3 -16 L 3 -16 L 3 -3 L 16 -3 L 16 3 L 3 3 L 3 16 L -3 16 L -3 3 L -16 3 L -16 -3 L -3 -3 Z"
+          fill="#D32F2F"
+        />
+        <rect x="3" y="-16" width="13" height="6" fill="#D32F2F" />
+        <rect x="10" y="3" width="6" height="13" fill="#D32F2F" />
+        <rect x="-16" y="10" width="13" height="6" fill="#D32F2F" />
+        <rect x="-16" y="-16" width="6" height="13" fill="#D32F2F" />
+      </g>
+
+      <!-- Golden Yellow Frame Border -->
+      <rect
+        x="40"
+        y="72"
+        width="120"
+        height="92"
+        fill="none"
+        stroke="#FDB913"
+        stroke-width="8"
+        stroke-linejoin="miter"
+      />
+
+      <!-- SRM Text -->
+      <text
+        x="100"
+        y="204"
+        text-anchor="middle"
+        font-family="'Work Sans', system-ui, -apple-system, sans-serif"
+        font-weight="900"
+        font-size="29"
+        letter-spacing="4"
+        fill="#FDB913"
+      >SRM</text>
+
+      <!-- Bottom Tip Accent Dot -->
+      <circle cx="100" cy="222" r="1.8" fill="#FDB913" />
+    </g>
+
+    <!-- AUTONOMOUS text below seal -->
+    <text
+      x="55"
+      y="110"
+      text-anchor="middle"
+      font-family="'Work Sans', system-ui, -apple-system, sans-serif"
+      font-size="6.5"
+      font-weight="700"
+      letter-spacing="1"
+      fill="#FFFFFF"
+      opacity="0.9"
+    >AUTONOMOUS</text>
+  </g>
+
+  <!-- ==================== RIGHT INSTITUTIONAL TYPOGRAPHY ==================== -->
+  <g id="college-typography" transform="translate(122, 0)">
+    <!-- EASWARI -->
+    <text
+      x="0"
+      y="35"
+      font-family="'Cinzel', 'Playfair Display', 'Times New Roman', 'Georgia', serif"
+      font-size="36"
+      font-weight="700"
+      fill="#FFFFFF"
+      letter-spacing="1.5"
+    >EASWARI</text>
+
+    <!-- ENGINEERING COLLEGE -->
+    <text
+      x="0"
+      y="57"
+      font-family="'Work Sans', system-ui, -apple-system, sans-serif"
+      font-size="16"
+      font-weight="700"
+      fill="#FFFFFF"
+      letter-spacing="1.8"
+    >ENGINEERING COLLEGE</text>
+
+    <!-- An AUTONOMOUS Institution -->
+    <text
+      x="0"
+      y="71"
+      font-family="'Work Sans', system-ui, -apple-system, sans-serif"
+      font-size="9"
+      font-weight="500"
+      fill="#FFFFFF"
+      opacity="0.92"
+      letter-spacing="0.4"
+    >An AUTONOMOUS Institution</text>
+
+    <!-- Affiliated to ANNA UNIVERSITY -->
+    <text
+      x="0"
+      y="84"
+      font-family="'Work Sans', system-ui, -apple-system, sans-serif"
+      font-size="8.5"
+      font-weight="600"
+      fill="#FFFFFF"
+      opacity="0.88"
+      letter-spacing="0.6"
+    >Affiliated to ANNA UNIVERSITY</text>
+
+    <!-- RAMAPURAM CHENNAI Plaque / Pill -->
+    <rect
+      x="0"
+      y="91"
+      width="170"
+      height="16"
+      fill="#FFFFFF"
+      rx="1.5"
+    />
+    <text
+      x="85"
+      y="102.5"
+      text-anchor="middle"
+      font-family="'Work Sans', system-ui, -apple-system, sans-serif"
+      font-size="9"
+      font-weight="800"
+      letter-spacing="1.2"
+      fill="#4E0812"
+    >RAMAPURAM CHENNAI</text>
+  </g>
+</svg>
